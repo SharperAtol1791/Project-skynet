@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "project_skynet:block/skyworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "project_skynet:block/skyworld_portal_ns"
+    }
+  }
+}

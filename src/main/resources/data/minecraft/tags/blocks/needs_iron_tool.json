@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "project_skynet:sapphireblock",
+    "project_skynet:deepslatesapphireore",
+    "project_skynet:sapphireore",
+    "project_skynet:rubyblock",
+    "project_skynet:deepslaterubyore"
+  ]
+}

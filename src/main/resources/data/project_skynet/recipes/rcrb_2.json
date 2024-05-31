@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "project_skynet:rubyblock"
+    }
+  },
+  "result": {
+    "item": "project_skynet:ruby",
+    "count": 9
+  }
+}

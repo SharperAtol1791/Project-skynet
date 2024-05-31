@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "project_skynet:block/aluminium_ore",
+    "up": "project_skynet:block/aluminium_ore",
+    "north": "project_skynet:block/aluminium_ore",
+    "east": "project_skynet:block/aluminium_ore",
+    "south": "project_skynet:block/aluminium_ore",
+    "west": "project_skynet:block/aluminium_ore",
+    "particle": "project_skynet:block/aluminium_ore"
+  },
+  "render_type": "solid"
+}

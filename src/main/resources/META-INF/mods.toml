@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="ISC License (ISCL) Microsoft Public License (Ms-PL)"
+
+[[mods]]
+modId="project_skynet"
+version="0.0.8"
+displayName="Project Skynet"
+displayURL="https://mcreator.net"
+credits="SharperAtol1791"
+authors="SharperAtol1791"
+description="This mod"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.project_skynet]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.4.223,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.project_skynet]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

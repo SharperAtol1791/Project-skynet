@@ -1,0 +1,1736 @@
+{
+  "mod_elements": [
+    {
+      "name": "Deadforest",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deadforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/worldgen/configured_feature/deadforest_tree.json",
+          "src/main/resources/data/project_skynet/worldgen/biome/deadforest.json",
+          "src/main/resources/data/project_skynet/worldgen/placed_feature/deadforest_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/copper_pickaxe.json",
+          "src/main/java/net/mcreator/projectskynet/item/CopperPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/copper_axe.json",
+          "src/main/java/net/mcreator/projectskynet/item/CopperAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/CopperSwordItem.java",
+          "src/main/resources/assets/project_skynet/models/item/copper_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/CopperShovelItem.java",
+          "src/main/resources/assets/project_skynet/models/item/copper_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/copper_hoe.json",
+          "src/main/java/net/mcreator/projectskynet/item/CopperHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/copper_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperAxeRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/copper_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperSwordRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/copper_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperShovelRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/copper_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperHoeRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/copper_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Skyworld",
+      "type": "dimension",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyworld",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/blockstates/skyworld_portal.json",
+          "src/main/java/net/mcreator/projectskynet/block/SkyworldPortalBlock.java",
+          "src/main/resources/assets/project_skynet/models/block/skyworld_portal_ew.json",
+          "src/main/java/net/mcreator/projectskynet/world/dimension/SkyworldDimension.java",
+          "src/main/resources/data/project_skynet/dimension_type/skyworld.json",
+          "src/main/resources/data/project_skynet/dimension/skyworld.json",
+          "src/main/java/net/mcreator/projectskynet/world/teleporter/SkyworldPortalShape.java",
+          "src/main/java/net/mcreator/projectskynet/item/SkyworldItem.java",
+          "src/main/resources/assets/project_skynet/models/block/skyworld_portal_ns.json",
+          "src/main/java/net/mcreator/projectskynet/world/teleporter/SkyworldTeleporter.java",
+          "src/main/resources/assets/project_skynet/models/item/skyworld.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldsword",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/emeraldsword.json",
+          "src/main/java/net/mcreator/projectskynet/item/EmeraldswordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldaxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/EmeraldaxeItem.java",
+          "src/main/resources/assets/project_skynet/models/item/emeraldaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldShovel",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/EmeraldShovelItem.java",
+          "src/main/resources/assets/project_skynet/models/item/emerald_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldhoe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldhoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/EmeraldhoeItem.java",
+          "src/main/resources/assets/project_skynet/models/item/emeraldhoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldpickaxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/EmeraldpickaxeItem.java",
+          "src/main/resources/assets/project_skynet/models/item/emeraldpickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Projectskynet",
+      "type": "tab",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectskynet",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Emerald",
+      "type": "armor",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/emerald_leggings.json",
+          "src/main/resources/assets/project_skynet/models/item/emerald_helmet.json",
+          "src/main/resources/assets/project_skynet/models/item/emerald_boots.json",
+          "src/main/java/net/mcreator/projectskynet/item/EmeraldItem.java",
+          "src/main/resources/assets/project_skynet/models/item/emerald_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcemsw",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcemsw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcemsw.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcempx",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcempx",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcempx.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcemsl",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcemsl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcemsl.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcemax",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcemax",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcemax.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcemhe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcemhe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcemhe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcemhm",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcemhm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcemhm.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcemch",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcemch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcemch.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcemlg",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcemlg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcemlg.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcembo",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcembo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcembo.json"
+        ]
+      }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/ruby.json",
+          "src/main/java/net/mcreator/projectskynet/item/RubyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rubyore",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/block/rubyore.json",
+          "src/main/resources/data/project_skynet/neoforge/biome_modifier/rubyore_biome_modifier.json",
+          "src/main/resources/data/project_skynet/worldgen/placed_feature/rubyore.json",
+          "src/main/resources/assets/project_skynet/models/item/rubyore.json",
+          "src/main/resources/data/project_skynet/loot_tables/blocks/rubyore.json",
+          "src/main/java/net/mcreator/projectskynet/block/RubyoreBlock.java",
+          "src/main/resources/data/project_skynet/worldgen/configured_feature/rubyore.json",
+          "src/main/resources/assets/project_skynet/blockstates/rubyore.json"
+        ]
+      }
+    },
+    {
+      "name": "Deepslaterubyore",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslaterubyore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/worldgen/placed_feature/deepslaterubyore.json",
+          "src/main/resources/data/project_skynet/loot_tables/blocks/deepslaterubyore.json",
+          "src/main/resources/data/project_skynet/worldgen/configured_feature/deepslaterubyore.json",
+          "src/main/resources/assets/project_skynet/models/block/deepslaterubyore.json",
+          "src/main/resources/assets/project_skynet/blockstates/deepslaterubyore.json",
+          "src/main/resources/data/project_skynet/neoforge/biome_modifier/deepslaterubyore_biome_modifier.json",
+          "src/main/resources/assets/project_skynet/models/item/deepslaterubyore.json",
+          "src/main/java/net/mcreator/projectskynet/block/DeepslaterubyoreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/RubySwordItem.java",
+          "src/main/resources/assets/project_skynet/models/item/ruby_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/RubyPickaxeItem.java",
+          "src/main/resources/assets/project_skynet/models/item/ruby_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/RubyAxeItem.java",
+          "src/main/resources/assets/project_skynet/models/item/ruby_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyHoe",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/RubyHoeItem.java",
+          "src/main/resources/assets/project_skynet/models/item/ruby_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyShovel",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/RubyShovelItem.java",
+          "src/main/resources/assets/project_skynet/models/item/ruby_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Ruby1",
+      "type": "armor",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/ruby_1_helmet.json",
+          "src/main/resources/assets/project_skynet/models/item/ruby_1_boots.json",
+          "src/main/resources/assets/project_skynet/models/item/ruby_1_leggings.json",
+          "src/main/java/net/mcreator/projectskynet/item/Ruby1Item.java",
+          "src/main/resources/assets/project_skynet/models/item/ruby_1_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyblock",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/rubyblock.json",
+          "src/main/resources/assets/project_skynet/models/block/rubyblock.json",
+          "src/main/resources/data/project_skynet/loot_tables/blocks/rubyblock.json",
+          "src/main/resources/assets/project_skynet/blockstates/rubyblock.json",
+          "src/main/java/net/mcreator/projectskynet/block/RubyblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Rcrb",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcrb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcrb.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcrsw",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcrsw",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcrsw.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcrax",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcrax",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcrax.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcrpx",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcrpx",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcrpx.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcrshl",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcrshl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcrshl.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcrhe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcrhe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcrhe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcrb2",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcrb_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcrb_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/SapphireItem.java",
+          "src/main/resources/assets/project_skynet/models/item/sapphire.json"
+        ]
+      }
+    },
+    {
+      "name": "Sapphireore",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphireore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/worldgen/configured_feature/sapphireore.json",
+          "src/main/resources/data/project_skynet/neoforge/biome_modifier/sapphireore_biome_modifier.json",
+          "src/main/java/net/mcreator/projectskynet/block/SapphireoreBlock.java",
+          "src/main/resources/data/project_skynet/loot_tables/blocks/sapphireore.json",
+          "src/main/resources/assets/project_skynet/models/item/sapphireore.json",
+          "src/main/resources/assets/project_skynet/models/block/sapphireore.json",
+          "src/main/resources/data/project_skynet/worldgen/placed_feature/sapphireore.json",
+          "src/main/resources/assets/project_skynet/blockstates/sapphireore.json"
+        ]
+      }
+    },
+    {
+      "name": "Deepslatesapphireore",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslatesapphireore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/blockstates/deepslatesapphireore.json",
+          "src/main/resources/data/project_skynet/loot_tables/blocks/deepslatesapphireore.json",
+          "src/main/resources/data/project_skynet/worldgen/configured_feature/deepslatesapphireore.json",
+          "src/main/java/net/mcreator/projectskynet/block/DeepslatesapphireoreBlock.java",
+          "src/main/resources/assets/project_skynet/models/block/deepslatesapphireore.json",
+          "src/main/resources/assets/project_skynet/models/item/deepslatesapphireore.json",
+          "src/main/resources/data/project_skynet/neoforge/biome_modifier/deepslatesapphireore_biome_modifier.json",
+          "src/main/resources/data/project_skynet/worldgen/placed_feature/deepslatesapphireore.json"
+        ]
+      }
+    },
+    {
+      "name": "Sapphireblock",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphireblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/loot_tables/blocks/sapphireblock.json",
+          "src/main/resources/assets/project_skynet/models/item/sapphireblock.json",
+          "src/main/java/net/mcreator/projectskynet/block/SapphireblockBlock.java",
+          "src/main/resources/assets/project_skynet/blockstates/sapphireblock.json",
+          "src/main/resources/assets/project_skynet/models/block/sapphireblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcspb",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcspb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcspb.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcdsor",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcdsor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcdsor.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcsor",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcsor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcsor.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcdror",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcdror",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcdror.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcror",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcror",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcror.json"
+        ]
+      }
+    },
+    {
+      "name": "Zirconiumingot",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zirconiumingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/zirconiumingot.json",
+          "src/main/java/net/mcreator/projectskynet/item/ZirconiumingotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ZirconiumOre",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zirconium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/worldgen/configured_feature/zirconium_ore.json",
+          "src/main/resources/assets/project_skynet/blockstates/zirconium_ore.json",
+          "src/main/java/net/mcreator/projectskynet/block/ZirconiumOreBlock.java",
+          "src/main/resources/assets/project_skynet/models/item/zirconium_ore.json",
+          "src/main/resources/data/project_skynet/neoforge/biome_modifier/zirconium_ore_biome_modifier.json",
+          "src/main/resources/assets/project_skynet/models/block/zirconium_ore.json",
+          "src/main/resources/data/project_skynet/worldgen/placed_feature/zirconium_ore.json",
+          "src/main/resources/data/project_skynet/loot_tables/blocks/zirconium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ZirconiumBlock",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zirconium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/blockstates/zirconium_block.json",
+          "src/main/java/net/mcreator/projectskynet/block/ZirconiumBlockBlock.java",
+          "src/main/resources/assets/project_skynet/models/item/zirconium_block.json",
+          "src/main/resources/data/project_skynet/loot_tables/blocks/zirconium_block.json",
+          "src/main/resources/assets/project_skynet/models/block/zirconium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalPickaxe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/coal_pickaxe.json",
+          "src/main/java/net/mcreator/projectskynet/item/CoalPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CoalAxe",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/coal_axe.json",
+          "src/main/java/net/mcreator/projectskynet/item/CoalAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CoalSword",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/CoalSwordItem.java",
+          "src/main/resources/assets/project_skynet/models/item/coal_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalShovel",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/CoalShovelItem.java",
+          "src/main/resources/assets/project_skynet/models/item/coal_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalHoe",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/coal_hoe.json",
+          "src/main/java/net/mcreator/projectskynet/item/CoalHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CoalPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/coal_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalAxeRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/coal_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalSwordRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/coal_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalShovelRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/coal_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalHoeRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/coal_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimePickaxe",
+      "type": "tool",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/SlimePickaxeItem.java",
+          "src/main/resources/assets/project_skynet/models/item/slime_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeAxe",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/SlimeAxeItem.java",
+          "src/main/resources/assets/project_skynet/models/item/slime_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeSword",
+      "type": "tool",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/SlimeSwordItem.java",
+          "src/main/resources/assets/project_skynet/models/item/slime_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeShovel",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/slime_shovel.json",
+          "src/main/java/net/mcreator/projectskynet/item/SlimeShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SlimeHoe",
+      "type": "tool",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/SlimeHoeItem.java",
+          "src/main/resources/assets/project_skynet/models/item/slime_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/slime_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeAxeRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/slime_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeSwordRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/slime_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeShovelRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/slime_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeHoeRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/slime_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumIngot",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/aluminium_ingot.json",
+          "src/main/java/net/mcreator/projectskynet/item/AluminiumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Topaz",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/topaz.json",
+          "src/main/java/net/mcreator/projectskynet/item/TopazItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumOre",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/block/aluminium_ore.json",
+          "src/main/resources/data/project_skynet/neoforge/biome_modifier/aluminium_ore_biome_modifier.json",
+          "src/main/resources/assets/project_skynet/blockstates/aluminium_ore.json",
+          "src/main/resources/data/project_skynet/worldgen/placed_feature/aluminium_ore.json",
+          "src/main/resources/data/project_skynet/loot_tables/blocks/aluminium_ore.json",
+          "src/main/java/net/mcreator/projectskynet/block/AluminiumOreBlock.java",
+          "src/main/resources/assets/project_skynet/models/item/aluminium_ore.json",
+          "src/main/resources/data/project_skynet/worldgen/configured_feature/aluminium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateAluminiumOre",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_aluminium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/worldgen/configured_feature/deepslate_aluminium_ore.json",
+          "src/main/resources/assets/project_skynet/models/item/deepslate_aluminium_ore.json",
+          "src/main/resources/data/project_skynet/loot_tables/blocks/deepslate_aluminium_ore.json",
+          "src/main/resources/assets/project_skynet/blockstates/deepslate_aluminium_ore.json",
+          "src/main/resources/data/project_skynet/worldgen/placed_feature/deepslate_aluminium_ore.json",
+          "src/main/resources/assets/project_skynet/models/block/deepslate_aluminium_ore.json",
+          "src/main/resources/data/project_skynet/neoforge/biome_modifier/deepslate_aluminium_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/projectskynet/block/DeepslateAluminiumOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumBlock",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/block/aluminium_block.json",
+          "src/main/java/net/mcreator/projectskynet/block/AluminiumBlockBlock.java",
+          "src/main/resources/assets/project_skynet/models/item/aluminium_block.json",
+          "src/main/resources/data/project_skynet/loot_tables/blocks/aluminium_block.json",
+          "src/main/resources/assets/project_skynet/blockstates/aluminium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateTopazOre",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_topaz_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/worldgen/placed_feature/deepslate_topaz_ore.json",
+          "src/main/resources/data/project_skynet/neoforge/biome_modifier/deepslate_topaz_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/projectskynet/block/DeepslateTopazOreBlock.java",
+          "src/main/resources/assets/project_skynet/models/item/deepslate_topaz_ore.json",
+          "src/main/resources/data/project_skynet/worldgen/configured_feature/deepslate_topaz_ore.json",
+          "src/main/resources/data/project_skynet/loot_tables/blocks/deepslate_topaz_ore.json",
+          "src/main/resources/assets/project_skynet/models/block/deepslate_topaz_ore.json",
+          "src/main/resources/assets/project_skynet/blockstates/deepslate_topaz_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "TopazOre",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/worldgen/placed_feature/topaz_ore.json",
+          "src/main/resources/data/project_skynet/neoforge/biome_modifier/topaz_ore_biome_modifier.json",
+          "src/main/resources/data/project_skynet/worldgen/configured_feature/topaz_ore.json",
+          "src/main/resources/assets/project_skynet/models/block/topaz_ore.json",
+          "src/main/resources/data/project_skynet/loot_tables/blocks/topaz_ore.json",
+          "src/main/resources/assets/project_skynet/blockstates/topaz_ore.json",
+          "src/main/resources/assets/project_skynet/models/item/topaz_ore.json",
+          "src/main/java/net/mcreator/projectskynet/block/TopazOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "TopazBlock",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/topaz_block.json",
+          "src/main/resources/assets/project_skynet/models/block/topaz_block.json",
+          "src/main/java/net/mcreator/projectskynet/block/TopazBlockBlock.java",
+          "src/main/resources/data/project_skynet/loot_tables/blocks/topaz_block.json",
+          "src/main/resources/assets/project_skynet/blockstates/topaz_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcalor",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcalor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcalor.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcalor2",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcalor_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcalor_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Rctzor",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rctzor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rctzor.json"
+        ]
+      }
+    },
+    {
+      "name": "Rctzor2",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rctzor_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rctzor_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcalbk",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcalbk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcalbk.json"
+        ]
+      }
+    },
+    {
+      "name": "Rcalbk2",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcalbk_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rcalbk_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Rctzbk",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rctzbk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rctzbk.json"
+        ]
+      }
+    },
+    {
+      "name": "Rctzbk2",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rctzbk_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/rctzbk_2.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumPickaxe",
+      "type": "tool",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/AluminiumPickaxeItem.java",
+          "src/main/resources/assets/project_skynet/models/item/aluminium_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumAxe",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/AluminiumAxeItem.java",
+          "src/main/resources/assets/project_skynet/models/item/aluminium_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumSword",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/AluminiumSwordItem.java",
+          "src/main/resources/assets/project_skynet/models/item/aluminium_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumShovel",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/aluminium_shovel.json",
+          "src/main/java/net/mcreator/projectskynet/item/AluminiumShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumHoe",
+      "type": "tool",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/AluminiumHoeItem.java",
+          "src/main/resources/assets/project_skynet/models/item/aluminium_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/aluminium_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/aluminium_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/aluminium_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/aluminium_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/aluminium_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstonePickaxe",
+      "type": "tool",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/redstone_pickaxe.json",
+          "src/main/java/net/mcreator/projectskynet/item/RedstonePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneAxe",
+      "type": "tool",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/RedstoneAxeItem.java",
+          "src/main/resources/assets/project_skynet/models/item/redstone_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneSword",
+      "type": "tool",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/RedstoneSwordItem.java",
+          "src/main/resources/assets/project_skynet/models/item/redstone_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneShovel",
+      "type": "tool",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/redstone_shovel.json",
+          "src/main/java/net/mcreator/projectskynet/item/RedstoneShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneHoe",
+      "type": "tool",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projectskynet/item/RedstoneHoeItem.java",
+          "src/main/resources/assets/project_skynet/models/item/redstone_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstonePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/redstone_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneAxeRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/redstone_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneSwordRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/redstone_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneShovelRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/redstone_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneHoeRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_skynet/recipes/redstone_hoe_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.STONE#0"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:AluminiumOre",
+      "~CUSTOM:ZirconiumBlock",
+      "~CUSTOM:ZirconiumOre",
+      "~CUSTOM:Sapphireblock",
+      "~CUSTOM:Deepslatesapphireore",
+      "~CUSTOM:Sapphireore",
+      "~CUSTOM:Rubyblock",
+      "~CUSTOM:Deepslaterubyore",
+      "~CUSTOM:Rubyore"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:Deadforest"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Sapphireblock",
+      "~CUSTOM:Deepslatesapphireore",
+      "~CUSTOM:Sapphireore",
+      "~CUSTOM:Rubyblock",
+      "~CUSTOM:Deepslaterubyore"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:AluminiumOre"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.project_skynet.sapphire": "Sapphire",
+      "item.project_skynet.redstone_pickaxe": "Redstone Pickaxe",
+      "item.project_skynet.aluminium_hoe": "Aluminium Hoe",
+      "item.project_skynet.ruby_pickaxe": "Ruby Pickaxe",
+      "item.project_skynet.slime_pickaxe": "Slime Pickaxe",
+      "item.project_skynet.redstone_axe": "Redstone Axe",
+      "item.project_skynet.topaz": "Topaz",
+      "item.project_skynet.aluminium_pickaxe": "Aluminium Pickaxe",
+      "item.project_skynet.emeraldhoe": "Emerald Hoe",
+      "block.project_skynet.aluminium_block": "Aluminium Block",
+      "item_group.project_skynet.projectskynet": "Project skynet",
+      "block.project_skynet.sapphireblock": "Sapphire block",
+      "item.project_skynet.slime_sword": "Slime Sword",
+      "item.project_skynet.copper_hoe": "Copper Hoe",
+      "item.project_skynet.coal_hoe": "Coal Hoe",
+      "item.project_skynet.copper_shovel": "Copper Shovel",
+      "biome.project_skynet.deadforest": "Dead forest",
+      "item.project_skynet.coal_shovel": "Coal Shovel",
+      "block.project_skynet.aluminium_ore": "Aluminium Ore",
+      "block.project_skynet.deepslaterubyore": "Deepslaterubyore",
+      "item.project_skynet.ruby_sword": "Ruby Sword",
+      "block.project_skynet.rubyblock": "Ruby block",
+      "item.project_skynet.coal_sword": "Coal Sword",
+      "item.project_skynet.skyworld": "Gold Igniter",
+      "item.project_skynet.emerald_chestplate": "Emerald Ceastplate",
+      "item.project_skynet.aluminium_ingot": "Aluminium Ingot",
+      "item.project_skynet.slime_axe": "Slime Axe",
+      "item.project_skynet.emerald_boots": "Emerald Boots",
+      "block.project_skynet.rubyore": "Ruby ore",
+      "block.project_skynet.deepslate_aluminium_ore": "Deepslate Aluminium Ore",
+      "block.project_skynet.deepslate_topaz_ore": "Deepslate Topaz Ore",
+      "item.project_skynet.emeraldsword": "Emerald Sword",
+      "item.project_skynet.ruby_axe": "Ruby Axe",
+      "item.project_skynet.emeraldaxe": "Emerald Axe",
+      "item.project_skynet.ruby_1_leggings": "Поножи Ruby 1",
+      "item.project_skynet.coal_pickaxe": "Coal Pickaxe",
+      "item.project_skynet.slime_hoe": "Slime Hoe",
+      "item.project_skynet.redstone_shovel": "Redstone Shovel",
+      "item.project_skynet.redstone_sword": "Redstone Sword",
+      "item.project_skynet.slime_shovel": "Slime Shovel",
+      "item.project_skynet.copper_axe": "Copper Axe",
+      "item.project_skynet.copper_pickaxe": "Copper Pickaxe",
+      "block.project_skynet.topaz_ore": "Topaz Ore",
+      "item.project_skynet.emerald_shovel": "Emerald Shovel",
+      "item.project_skynet.aluminium_axe": "Aluminium Axe",
+      "item.project_skynet.copper_sword": "Copper Sword",
+      "item.project_skynet.ruby_1_chestplate": "Нагрудник Ruby 1",
+      "item.project_skynet.emerald_leggings": "Emerald Leggings",
+      "item.project_skynet.emeraldpickaxe": "Emerald Pickaxe",
+      "block.project_skynet.sapphireore": "Sapphire ore",
+      "item.project_skynet.redstone_hoe": "Redstone Hoe",
+      "item.project_skynet.aluminium_shovel": "Aluminium Shovel",
+      "block.project_skynet.zirconium_block": "Zirconium Block",
+      "block.project_skynet.zirconium_ore": "Zirconium Ore",
+      "item.project_skynet.ruby_1_boots": "Ботинки Ruby 1",
+      "block.project_skynet.topaz_block": "Topaz Block",
+      "item.project_skynet.ruby_1_helmet": "Шлем Ruby 1",
+      "item.project_skynet.ruby_hoe": "Ruby Hoe",
+      "item.project_skynet.emerald_helmet": "Emerald Helmet",
+      "item.project_skynet.ruby_shovel": "Ruby Shovel",
+      "block.project_skynet.deepslatesapphireore": "Deepslate sapphire ore",
+      "item.project_skynet.aluminium_sword": "Aluminium Sword",
+      "item.project_skynet.coal_axe": "Coal Axe",
+      "item.project_skynet.ruby": "Ruby",
+      "item.project_skynet.zirconiumingot": "Zirconium ingot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "project_skynet",
+    "modName": "Project Skynet",
+    "version": "0.0.7.03",
+    "description": "Pre test build ",
+    "author": "SharperAtol1791",
+    "websiteURL": "https://mcreator.net",
+    "license": "ISC License (ISCL) Microsoft Public License (Ms-PL)",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.4",
+    "credits": "SharperAtol1791",
+    "modElementsPackage": "net.mcreator.projectskynet"
+  },
+  "mcreatorVersion": 202400118518
+}

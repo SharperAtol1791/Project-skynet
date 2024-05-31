@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "project_skynet:topaz_block"
+    }
+  },
+  "result": {
+    "item": "project_skynet:topaz",
+    "count": 9
+  }
+}

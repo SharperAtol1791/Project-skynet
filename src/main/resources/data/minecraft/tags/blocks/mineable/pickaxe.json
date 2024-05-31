@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "project_skynet:aluminium_ore",
+    "project_skynet:zirconium_block",
+    "project_skynet:zirconium_ore",
+    "project_skynet:sapphireblock",
+    "project_skynet:deepslatesapphireore",
+    "project_skynet:sapphireore",
+    "project_skynet:rubyblock",
+    "project_skynet:deepslaterubyore",
+    "project_skynet:rubyore"
+  ]
+}

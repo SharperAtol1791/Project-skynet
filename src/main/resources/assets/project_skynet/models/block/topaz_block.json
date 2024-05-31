@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "project_skynet:block/topaz_block",
+    "up": "project_skynet:block/topaz_block",
+    "north": "project_skynet:block/topaz_block",
+    "east": "project_skynet:block/topaz_block",
+    "south": "project_skynet:block/topaz_block",
+    "west": "project_skynet:block/topaz_block",
+    "particle": "project_skynet:block/topaz_block"
+  },
+  "render_type": "solid"
+}

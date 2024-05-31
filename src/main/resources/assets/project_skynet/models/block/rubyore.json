@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "project_skynet:block/ruby_ore",
+    "up": "project_skynet:block/ruby_ore",
+    "north": "project_skynet:block/ruby_ore",
+    "east": "project_skynet:block/ruby_ore",
+    "south": "project_skynet:block/ruby_ore",
+    "west": "project_skynet:block/ruby_ore",
+    "particle": "project_skynet:block/ruby_ore"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,3 @@
+/locate biome project_skynet:skyworldbiome
+/tp @s -3400 74 3063
+/effect give Dev minecraft:night_vision infinite

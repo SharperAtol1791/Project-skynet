@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "project_skynet:aluminium_block"
+    }
+  },
+  "result": {
+    "item": "project_skynet:aluminium_ingot",
+    "count": 9
+  }
+}

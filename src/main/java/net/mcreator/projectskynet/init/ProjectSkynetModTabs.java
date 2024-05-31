@@ -55,7 +55,6 @@ public class ProjectSkynetModTabs {
 				tabData.accept(ProjectSkynetModBlocks.SAPPHIREORE.get().asItem());
 				tabData.accept(ProjectSkynetModBlocks.DEEPSLATESAPPHIREORE.get().asItem());
 				tabData.accept(ProjectSkynetModBlocks.SAPPHIREBLOCK.get().asItem());
-				tabData.accept(ProjectSkynetModItems.ZIRCONIUMINGOT.get());
 				tabData.accept(ProjectSkynetModBlocks.ZIRCONIUM_ORE.get().asItem());
 				tabData.accept(ProjectSkynetModBlocks.ZIRCONIUM_BLOCK.get().asItem());
 				tabData.accept(ProjectSkynetModItems.COAL_PICKAXE.get());
@@ -86,6 +85,7 @@ public class ProjectSkynetModTabs {
 				tabData.accept(ProjectSkynetModItems.REDSTONE_SWORD.get());
 				tabData.accept(ProjectSkynetModItems.REDSTONE_SHOVEL.get());
 				tabData.accept(ProjectSkynetModItems.REDSTONE_HOE.get());
+				tabData.accept(ProjectSkynetModItems.ZIRCONIUM_INGOT.get());
 			})
 
 					.build());

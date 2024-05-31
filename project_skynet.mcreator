@@ -759,20 +759,6 @@
       }
     },
     {
-      "name": "Zirconiumingot",
-      "type": "item",
-      "sortid": 56,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "zirconiumingot",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/project_skynet/models/item/zirconiumingot.json",
-          "src/main/java/net/mcreator/projectskynet/item/ZirconiumingotItem.java"
-        ]
-      }
-    },
-    {
       "name": "ZirconiumOre",
       "type": "block",
       "sortid": 57,
@@ -1744,6 +1730,20 @@
           "src/main/resources/data/project_skynet/recipes/brick_hoe_recipe.json"
         ]
       }
+    },
+    {
+      "name": "ZirconiumIngot",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zirconium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_skynet/models/item/zirconium_ingot.json",
+          "src/main/java/net/mcreator/projectskynet/item/ZirconiumIngotItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1815,8 +1815,9 @@
       "item.project_skynet.emeraldsword": "Emerald Sword",
       "item.project_skynet.ruby_axe": "Ruby Axe",
       "item.project_skynet.emeraldaxe": "Emerald Axe",
-      "item.project_skynet.ruby_1_leggings": "Поножи Ruby 1",
+      "item.project_skynet.ruby_1_leggings": "Ruby Leggings",
       "item.project_skynet.coal_pickaxe": "Coal Pickaxe",
+      "item.project_skynet.zirconium_ingot": "Zirconium Ingot",
       "item.project_skynet.slime_hoe": "Slime Hoe",
       "item.project_skynet.redstone_shovel": "Redstone Shovel",
       "item.project_skynet.brick_pickaxe": "Brick Pickaxe",
@@ -1828,7 +1829,7 @@
       "item.project_skynet.emerald_shovel": "Emerald Shovel",
       "item.project_skynet.aluminium_axe": "Aluminium Axe",
       "item.project_skynet.copper_sword": "Copper Sword",
-      "item.project_skynet.ruby_1_chestplate": "Нагрудник Ruby 1",
+      "item.project_skynet.ruby_1_chestplate": "Ruby Chestplate",
       "item.project_skynet.emerald_leggings": "Emerald Leggings",
       "item.project_skynet.emeraldpickaxe": "Emerald Pickaxe",
       "block.project_skynet.sapphireore": "Sapphire ore",
@@ -1838,17 +1839,16 @@
       "block.project_skynet.zirconium_block": "Zirconium Block",
       "item.project_skynet.brick_sword": "Brick Sword",
       "block.project_skynet.zirconium_ore": "Zirconium Ore",
-      "item.project_skynet.ruby_1_boots": "Ботинки Ruby 1",
+      "item.project_skynet.ruby_1_boots": "Ruby Boots",
       "block.project_skynet.topaz_block": "Topaz Block",
-      "item.project_skynet.ruby_1_helmet": "Шлем Ruby 1",
+      "item.project_skynet.ruby_1_helmet": "Ruby helmet",
       "item.project_skynet.ruby_hoe": "Ruby Hoe",
       "item.project_skynet.emerald_helmet": "Emerald Helmet",
       "item.project_skynet.ruby_shovel": "Ruby Shovel",
       "block.project_skynet.deepslatesapphireore": "Deepslate sapphire ore",
       "item.project_skynet.aluminium_sword": "Aluminium Sword",
       "item.project_skynet.coal_axe": "Coal Axe",
-      "item.project_skynet.ruby": "Ruby",
-      "item.project_skynet.zirconiumingot": "Zirconium ingot"
+      "item.project_skynet.ruby": "Ruby"
     }
   },
   "foldersRoot": {
@@ -1858,7 +1858,7 @@
   "workspaceSettings": {
     "modid": "project_skynet",
     "modName": "Project Skynet",
-    "version": "0.0.8",
+    "version": "0.0.8.01",
     "description": "This mod",
     "author": "SharperAtol1791",
     "websiteURL": "https://mcreator.net",

@@ -4,7 +4,7 @@ license="ISC License (ISCL) Microsoft Public License (Ms-PL)"
 
 [[mods]]
 modId="project_skynet"
-version="0.0.8"
+version="0.0.8.01"
 displayName="Project Skynet"
 displayURL="https://mcreator.net"
 credits="SharperAtol1791"

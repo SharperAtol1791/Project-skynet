@@ -13,7 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.projectskynet.item.ZirconiumingotItem;
+import net.mcreator.projectskynet.item.ZirconiumIngotItem;
 import net.mcreator.projectskynet.item.TopazItem;
 import net.mcreator.projectskynet.item.SlimeSwordItem;
 import net.mcreator.projectskynet.item.SlimeShovelItem;
@@ -97,7 +97,6 @@ public class ProjectSkynetModItems {
 	public static final DeferredHolder<Item, Item> SAPPHIREORE = block(ProjectSkynetModBlocks.SAPPHIREORE);
 	public static final DeferredHolder<Item, Item> DEEPSLATESAPPHIREORE = block(ProjectSkynetModBlocks.DEEPSLATESAPPHIREORE);
 	public static final DeferredHolder<Item, Item> SAPPHIREBLOCK = block(ProjectSkynetModBlocks.SAPPHIREBLOCK);
-	public static final DeferredHolder<Item, Item> ZIRCONIUMINGOT = REGISTRY.register("zirconiumingot", () -> new ZirconiumingotItem());
 	public static final DeferredHolder<Item, Item> ZIRCONIUM_ORE = block(ProjectSkynetModBlocks.ZIRCONIUM_ORE);
 	public static final DeferredHolder<Item, Item> ZIRCONIUM_BLOCK = block(ProjectSkynetModBlocks.ZIRCONIUM_BLOCK);
 	public static final DeferredHolder<Item, Item> COAL_PICKAXE = REGISTRY.register("coal_pickaxe", () -> new CoalPickaxeItem());
@@ -133,6 +132,7 @@ public class ProjectSkynetModItems {
 	public static final DeferredHolder<Item, Item> BRICK_SWORD = REGISTRY.register("brick_sword", () -> new BrickSwordItem());
 	public static final DeferredHolder<Item, Item> BRICK_SHOVEL = REGISTRY.register("brick_shovel", () -> new BrickShovelItem());
 	public static final DeferredHolder<Item, Item> BRICK_HOE = REGISTRY.register("brick_hoe", () -> new BrickHoeItem());
+	public static final DeferredHolder<Item, Item> ZIRCONIUM_INGOT = REGISTRY.register("zirconium_ingot", () -> new ZirconiumIngotItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
